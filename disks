@@ -1,0 +1,53 @@
+/dev/xvda1  227328 16777182 16549855  7.9G Linux filesystem
+
+Disk /dev/xvdb: 12 GiB, 12884901888 bytes, 25165824 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+
+
+Disk /dev/loop0: 24.59 MiB, 25780224 bytes, 50352 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop1: 55.66 MiB, 58363904 bytes, 113992 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop2: 63.46 MiB, 66547712 bytes, 129976 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop3: 111.95 MiB, 117387264 bytes, 229272 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop4: 40.84 MiB, 42827776 bytes, 83648 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/xvda: 8 GiB, 8589934592 bytes, 16777216 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: B3F8B8BC-6206-4B08-8022-448584C72D0D
+
+Device       Start      End  Sectors  Size Type
+/dev/xvda1  227328 16777182 16549855  7.9G Linux filesystem
+/dev/xvda14   2048    10239     8192    4M BIOS boot
+/dev/xvda15  10240   227327   217088  106M EFI System
+
+Partition table entries are not in disk order.
