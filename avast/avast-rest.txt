@@ -37,3 +37,12 @@ http  --print HBhb  PUT "http://127.0.0.1:8080/v1/scan?filename=battery.doc&full
 
 
 curl -X POST -H "Content-Type: application/octet-stream" --data-binary "@/home/path/file.xyz" http://127.0.0.1:8080/v1/?filename=file.xyz&food=1&
+
+#posting from other VM on seperate ec2 to ours using private IP (172.31.36.214) as they are on same VPC 
+curl -X POST -H "Content-Type: application/octet-stream" --data-binary "@/home/ec2-user/f" "http://172.31.36.214:8080/v1/scan?filename=f&full=1&pup=1&heuristics=100&detections=1" -o o
+
+
+
+curl -X POST -H "Content-Type: application/octet-stream" --data-binary "@/home/ec2-user/i" "http://172.31.36.214:8080/v1/scan?filename=i&full=1&pup=1&heuristics=100&detections=1" -o o2
+
+
