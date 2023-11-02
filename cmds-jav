@@ -1,0 +1,131 @@
+ubuntu@ip-172-31-36-214:~$ sudo scp ubuntu@172.31.36.214/home/jav/hist.note ~/code/jav/d1
+cp: cannot stat 'ubuntu@172.31.36.214/home/jav/hist.note': No such file or directory
+ubuntu@ip-172-31-36-214:~$ exit
+logout
+There are stopped jobs.
+
+
+mkdir ~/.ssh
+cd g
+mkdir g
+cd g
+git clone git@github.com:tgkprog/ubu_avast_aws.git
+eval "$(ssh-agent -s)"
+ls ~/.ssh
+ls -al  ~/.ssh
+ssh-add ~/.ssh/id_ed25519
+echo "sd"
+nano g
+cp g dfd
+ls -al
+cd /up3
+cp ~/g/dfd fgg
+chmod -R 000 /up3
+chmod -R -w /up3
+ls -al /up3
+chmod +w /up3
+cp ~/g/dfd fgg
+ls -al
+cp ~/g/dfd fgg
+chmod 444 *
+chmod -R 600  /up3
+ls -al
+chmod u+wr
+chmod -R u+wr /up3
+ls -al
+ls -al /up3
+ls "/var/lib/avast/chest"
+cp /var/lib/avast/chest/* .
+ls -al
+ls -al /up3/
+chmod 777 ./get-mauled 
+ls
+ls ..
+ls /up3/
+ls -al /up3/
+ls
+groups
+cd /up3
+ls
+./get-mauled 
+./get-mauled  the-zoo
+ls 
+./get-mauled  contagio
+ls -al
+./get-mauled  malware-samples 
+ls
+ls /tmp
+cp /tmp/contagio104472876 .
+cp /tmp/thezoo551943554 .
+ls
+cat ./ f363261d22da7712bf35426d8f8be710-1496277893.M406250P23648Q2375-120.26.86.15-37237-none
+cat  smb-0e89k3id.exe
+avast-rest ./ smb-0e89k3id.exe
+scan ./smb-0e89k3id.exe
+echo $?
+nano r4
+scan r4
+echo $?
+ls -al
+scan thezoo551943554
+mkdir t
+mv * /t
+mv * t
+cp t/thezoo551943554 ..
+cp t/thezoo551943554 .
+ls -al
+cp /vr/1 .
+ls -al
+scan ./thezoo551943554 
+echo $?
+ls t
+cp t/smb-zxck4paa.tmp 
+cp t/smb-zxck4paa.tmp  .
+ls
+ls "/var/lib/avast/chest
+ls "/var/lib/avast/chest"
+cp t/smb-zxck4paa.tmp  smb-poke09
+ls
+cat ./thezoo551943554 
+ls -al
+ls -al t/the*
+rm thezoo551943554 
+ls
+t/get-mauled  the-zoo
+ls -al
+ls /tmp
+cp /tmp/thezoo063298684 .
+ls -al
+mkdir g
+cp thezoo063298684 g
+ls -gla g
+ls -al g
+ls -al /tmp
+cp /tmp/.ICE-unix g
+ls -al /tmp
+t/get-mauled  the-zoo
+t/get-mauled 
+t/get-mauled --timeout 100 -o .
+t/get-mauled --timeout 100 -o . thezoo
+mkdir v
+export MALICE_OUTPUT_DIRECTORY=v
+t/get-mauled   thezoo
+t/get-mauled --timeout 100 -o . the-zoo
+wget https://github.com/ytisf/theZoo/archive/master.zip
+ls -al
+mkdir zo
+cd zo
+unzip ../master.zip 
+ls zo
+cat theZoo-master/requirements.txt 
+cd theZoo-master/
+ls
+cat README.md 
+pip install --user -r requirements.txt
+python theZoo.py
+ls 
+unzip malware/Binaries/Win32.Sofacy.A/Win32.Sofacy.A.zip .
+unzip malware/Binaries/Win32.Sofacy.A/Win32.Sofacy.A.zip
+ls -al
+cd ~
+

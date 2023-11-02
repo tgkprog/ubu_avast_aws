@@ -1,0 +1,27 @@
+
+
+
+mv ./av ./avast-gpg-key.asc
+
+apt update
+apt install -y avast
+apt install -y avast-fss
+apt install -y avast-rest
+apt install avast-license
+
+
+
+systemctl start avast
+systemctl start avast-rest
+systemctl start avast-fss
+
+#nano /etc/avast/avast.conf
+cat /etc/avast/avast.conf
+systemctl restart avast
+systemctl stop avast-rest
+systemctl stop avast-fss
+systemctl start avast-rest
+systemctl start avast-fss
+cat /etc/avast/avast.conf
+
+cat  /etc/avast/fss.conf

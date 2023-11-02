@@ -1,0 +1,192 @@
+tmpfs             194500     912    193588   1% /run
+tmpfs               5120       0      5120   0% /run/lock
+/dev/xvda15       106858    6186    100673   6% /boot/efi
+tmpfs              97248       4     97244   1% /run/user/1001
+tmpfs              97248       4     97244   1% /run/user/1000
+ubuntu@ip-172-31-36-214:~$ sudo fdisk -l
+Disk /dev/loop0: 24.59 MiB, 25780224 bytes, 50352 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop1: 55.66 MiB, 58363904 bytes, 113992 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop2: 63.46 MiB, 66547712 bytes, 129976 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop3: 111.95 MiB, 117387264 bytes, 229272 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop4: 40.84 MiB, 42827776 bytes, 83648 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop5: 40.86 MiB, 42840064 bytes, 83672 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/xvda: 8 GiB, 8589934592 bytes, 16777216 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: B3F8B8BC-6206-4B08-8022-448584C72D0D
+
+Device       Start      End  Sectors  Size Type
+/dev/xvda1  227328 16777182 16549855  7.9G Linux filesystem
+/dev/xvda14   2048    10239     8192    4M BIOS boot
+/dev/xvda15  10240   227327   217088  106M EFI System
+
+Partition table entries are not in disk order.
+
+
+Disk /dev/xvdb: 12 GiB, 12884901888 bytes, 25165824 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+ubuntu@ip-172-31-36-214:~$ history -w hist.note
+ubuntu@ip-172-31-36-214:~$ cat hist.note 
+sudo su
+DIST=$(. /etc/os-release; echo "ubuntu-jammy")
+echo "deb https://repo.avcdn.net/linux-av/deb $DIST release" \ > /etc/apt/sources.list.d/avast.list
+sudo su
+sudo apt install git
+curl https://github.com/malice-plugins/get-mauled/archive/refs/heads/master.zip -o m.zip
+unzip m.zip 
+sudo apt install unzip
+mkdir mauled
+cd mauled/
+unzip ../m.zip 
+ls ..
+ls -al ..
+cd ..
+curl https://github.com/malice-plugins/get-mauled/archive/refs/heads/master.zip -o m.zip
+curl https://github.com/malice-plugins/get-mauled/archive/refs/heads/master.zip 
+curl -o m.zip  https://github.com/malice-plugins/get-mauled/archive/refs/heads/master.zip 
+cd mauled/
+git checkout https://github.com/malice-plugins/get-mauled.git
+git clone  https://github.com/malice-plugins/get-mauled.git
+ls -al
+cd getq
+cd get-mauled/
+ls
+./get-mauled
+cd ..
+curl --help
+curl -o m https://github.com/malice-plugins/get-mauled/releases/download/0.1.9/get-mauled_0.1.9_Linux_i386.tar.gz
+curl -O https://github.com/malice-plugins/get-mauled/releases/download/0.1.9/get-mauled_0.1.9_Linux_i386.tar.gz
+sudo apt install curl
+sudo apt install wget
+wget https://github.com/malice-plugins/get-mauled/releases/download/0.1.9/get-mauled_0.1.9_Linux_i386.tar.gz
+ls
+mkdir m
+cd m
+ls -al
+cd m
+mkdir t
+cd t
+wget https://github.com/malice-plugins/get-mauled/releases/download/0.1.9/get-mauled_0.1.9_Linux_i386.tar.gz
+ls
+tar -xvzf ./get-mauled_0.1.9_Linux_i386.tar.gz 
+ls -al
+./get-mauled 
+./get-mauled all
+./get-mauled the-zoo
+sudo apt install 7zip
+./get-mauled the-zoo
+sudo apt install 7zip
+./get-mauled the-zoo
+7z
+tar -xvzf f
+sudo apt install p7zip-full
+./get-mauled the-zoo
+ls
+cp get-mauled /up3/
+sudo cp get-mauled /up3/
+sudo chown jav /up3/*
+sudo chown jav /up3/*.*
+sudo chown -R jav /up3/
+sudo chown -R jav /up3/*
+sudo chmod u+rw /up3
+sudo chmod u+rw /up3/*
+sudo chmod -R u+rw /up3
+sudo chown -R jav /up3
+sudo chown -R jav /up3/
+ls -al /up3
+sudo ls -al /up3
+sudo rm -R /up3
+sudo mkdir /up3
+sudo chown jav /up3
+sudo cp ./get-mauled /up3
+sudo chown -R jav /up3
+sudo ls -al /up3
+sudo u+wrx /up3/*
+sudo chmod  u+wrx /up3/*
+sudo chmod -R  u+wrx /up3
+sudo chmod -R  u+wrx /up3/
+sudo chmod -R 777 /up3/
+sudo chown -R jav:jav /up3
+getent
+getent --usage
+getent --usagegetent group
+sudo getent group
+compgen -g
+groups
+group
+groups
+sudo ls -al /up3
+history | grep chest
+cat  /etc/avast/fss.conf
+sudo ls /var/lib/avast/chest
+ls -al
+pwd
+sudo mkdir /vr
+sudo chmod -R /vr
+sudo chmod -R 777  /vr
+nano /vr/1
+ls /vr/1
+sudo ls "/var/lib/avast/chest
+"
+sudo ls "/var/lib/avast/chest"
+sudo ls "/var/lib/avast/chest" | grep zoo
+sudo ls "/var/lib/avast/chest" | grep poke
+sudo ls -al  "/var/lib/avast/chest" | grep poke
+sudo systemctl stop avast
+sudo systemctl stop avast-rest
+sudo systemctl stop avast-fss
+sudo -R /tmp/*
+sudo rm  -R /tmp/*
+sudo systemctl restart avast
+sudo systemctl start avast-rest
+sudo systemctl start avast-fss
+sudo apt install urllib3
+sudo apt install pyminizip
+sudo apt install python
+sudo apt install python2
+sudo apt install python
+sudo apt install python-is-python3
+which python
+sudo apt install python3-pip
+scan
+scan --help
+scan -h
+sudo ls -al  "/var/lib/avast/chest" 
+sudo ls -al  "/var/lib/avast/chest" | grep Win
+df
+sudo fdisk -l
+history -w hist.note
