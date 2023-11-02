@@ -1,4 +1,7 @@
+
 ubuntu@ip-172-31-36-214:~$ sudo scp ubuntu@172.31.36.214/home/jav/hist.note ~/code/jav/d1
+
+sshfs -i  ubuntu@172.31.36.214:/home/ubuntu/tm/hist.txt /home/t/code/jav/d1
 cp: cannot stat 'ubuntu@172.31.36.214/home/jav/hist.note': No such file or directory
 ubuntu@ip-172-31-36-214:~$ exit
 logout
@@ -128,4 +131,11 @@ unzip malware/Binaries/Win32.Sofacy.A/Win32.Sofacy.A.zip .
 unzip malware/Binaries/Win32.Sofacy.A/Win32.Sofacy.A.zip
 ls -al
 cd ~
+cp /up3/zo/theZoo-master/malware/Binaries/Win32.Sofacy.A/Win32.Sofacy.A.zip .
+
+unzip Win32.Sofacy.A.zip
+#password is there in same dir - 
+scan -h
+
+scan -bfiul 99 ./Win32.Sofacy.A
 

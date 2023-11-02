@@ -1,0 +1,39 @@
+http POST http://127.0.0.1:8080/v1/scan?filename=xyz.doc&full=1&pup=1&heuristics=100&detections=1 \
+ Content-Type:application/octet-stream  </up3/sc/test
+
+headers
+Content-Type:application/octet-stream
+Content-Length: FILE_SIZE
+
+
+
+--offline
+
+@/file/path
+
+
+http --offline  POST http://127.0.0.1:8080/v1/scan?full=1&pup=1&heuristics=100&detections=1 \
+ Content-Type:application/octet-stream \
+  \
+ filename= \
+ @/home/t/code/jav/d1/k.l
+ 
+ text/x-shellscript
+ 
+http --offline http://127.0.0.1:8080/v1/scan?filename=xyz.doc&full=1&pup=1&heuristics=100&detections=1 \
+Content-Type:application/octet-stream  @/home/t/code/jav/d1/k.l
+
+
+http POST http://127.0.0.1:8080/v1/scan?filename=xyz.jk&full=1&pup=1&heuristics=100&detections=1 \
+Content-Type:application/octet-stream  @/up3/sc
+
+
+
+http  --offline POST http://127.0.0.1:8080/v1/scan?filename=test&full=1&pup=1&heuristics=100&detections=1 Content-Type:text/plain < /up3/sc/test
+http  --offline  POST 127.0.0.1:8080/v1/scan?filename=eic4.sh&full=1&pup=1&heuristics=100&detections=1 Content-Type:text/plain < /up3/sc/eic4.sh
+
+
+http  --print HBhb  PUT "http://127.0.0.1:8080/v1/scan?filename=battery.doc&full=1&pup=1&heuristics=100&detections=1" "Content-Type:application/octet-stream" <  "/home/jav/infected1/infectedScript.sh"
+
+
+curl -X POST -H "Content-Type: application/octet-stream" --data-binary "@/home/path/file.xyz" http://127.0.0.1:8080/v1/?filename=file.xyz&food=1&
